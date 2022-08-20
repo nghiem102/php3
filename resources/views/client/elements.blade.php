@@ -94,7 +94,7 @@
 
       <div class="row justify-content-center">
 
-        <div class="col-lg-6">
+        {{-- <div class="col-lg-6">
           <div class="custom-block" data-aos="fade-up">
             <h2 class="section-title new">Accordion</h2>
             <div class="custom-accordion" id="accordion_1">
@@ -159,8 +159,8 @@
             </div>
           </div> <!-- END .custom-block -->
 
-        </div>
-        <div class="col-lg-4">
+        </div> --}}
+        <div class="col-lg-12">
           <div class="custom-block" data-aos="fade-up" data-aos-delay="100">
             <h2 class="section-title new">Form</h2>
             <form class="contact-form bg-white" action="" method="post" enctype="multipart/form-data">
