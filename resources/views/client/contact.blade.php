@@ -119,7 +119,7 @@
           <div class="quick-contact-item d-flex align-items-center mb-4">
             <span class="flaticon-mail"></span>
             <address class="text">
-              huanql16012002@gmail.com
+              ledinhnghiem102@gmail.com
             </address>
           </div>
         </div>
