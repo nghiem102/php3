@@ -149,9 +149,9 @@
                                 Mã phòng
                             </th>
                             <th class="text-center">Tên phòng</th>
-                            <th class="text-center">Giá phòng</th>                             
-                            <th class="text-center" style="width: 280px">Hình ảnh</th>                            
-                            <th class="text-center" style="width: 280px">Mô tả</th>                                                       
+                            <th class="text-center">Giá phòng</th>
+                            <th class="text-center" style="width: 280px">Hình ảnh</th>
+                            <th class="text-center" style="width: 280px">Mô tả</th>
                             <th class="text-center">Loại phòng</th>
                             <th class="text-center">Dịch vụ</th>
                             <th class="text-center">Trạng thái</th>
@@ -160,7 +160,7 @@
 
                             @foreach($list as $item)
                             <tr>
-                                {{--                        
+                                {{--
                                 <td><input type="checkbox" name="chk_hv[]" class="chk_hv" id="chk_hv_{{$item->id}}" value="{{$item->id}}"> </td>--}}
                                 <td class="text-center">{{$item->id}}</td>
                                 <td class="text-center"><a style="color:#333333;font-weight: bold;" href="" style="white-space:unset;text-align: justify;"> {{$item->ten_phong}}</a></td>
@@ -187,9 +187,10 @@
                                     ?></td>
                                 <td class="text-center">
                                     @if($item->trang_thai == 1)
-                                        <a href="{{route('route_BackEnd_Phong_Delete',$item->id)}}" onclick="return confirm('Bạn có chắc muốn xóa')">Xóa /</a>
+                                    <button onclick="return confirm('Bạn có chắc muốn xóa')">
+                                        <a href="{{route('route_BackEnd_Phong_Delete',$item->id)}}" >Đổi trạng thái </a></button>
                                     @endif
-                                    <a href="{{ route('route_BackEnd_Phong_Detail',$item->id) }}">Sửa</a>                                
+                                    <a href="{{ route('route_BackEnd_Phong_Detail',$item->id) }}">Sửa</a>
                                 </td>
                             </tr>
                             @endforeach
