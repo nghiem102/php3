@@ -23,7 +23,7 @@ body {
     visibility: visible; }
 
 .bg-primary {
-  background-color: #6998AB !important; }
+  background-color: #ffb2c3 !important; }
 
 .text-black {
   color: #000000 !important; }
@@ -549,12 +549,12 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
 
 .hero {
   padding: 7rem 0 8rem 0;
-  background: #6998AB;
+  background: #ffb2c3;
   margin-bottom: 100px; }
   .hero.hero-inner {
     padding: 9rem 0 7rem 0;
     margin-bottom: auto;
-    background: #6998AB; }
+    background: #ffb2c3; }
   .hero h1 {
     color: #ffffff;
     font-size: 40px; }
@@ -596,7 +596,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
       background: #ffffff; }
       .hero .slides img.active {
         opacity: 1;
-        z-index: 1; }    
+        z-index: 1; }
     @media (max-width: 991.98px) {
       .hero .slides {
         margin-top: 40px;
@@ -605,7 +605,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
         border-radius: 100px;}}
 
 .untree_co-section {
-  margin-top: 10px;  
+  margin-top: 10px;
 }
 /* Css thêm */
 .mtnew{
@@ -622,8 +622,8 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
   width: 100%;    /* độ rộng của khối info = độ rộng của khối trip */
   transform: translateY(300px); /* khối info di chuyển theo trục Y (thẳng đứng) - lùi xuống phía dưới 120px */
   height: 100%;
-  transition: ease-in-out 1s; 
-  /* ease-in-out: tăng độ mượt cho animation 
+  transition: ease-in-out 1s;
+  /* ease-in-out: tăng độ mượt cho animation
       1s: thời gian diễn ra animation
   */
   animation-duration: 1s;     /* thời gian diễn ra animation đó*/
@@ -631,13 +631,13 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
 .info h3{
   display: block;
   font-size: 30px!important;
-  width: 100%; 
+  width: 100%;
   text-align: center;
 }
 .info span{
   display: block;
   font-size: 20px!important;
-  width: 100%; 
+  width: 100%;
   text-align: center;
 }
 .info button{
@@ -650,15 +650,15 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
 .trip:hover .info{
   /* khi hover vào khối trip thì thay đổi thuộc tính css của khối info */
   transform: translateY(100px); /* di chuyển đi lên, trở lại vị trí ban đầu */
-  transition: ease-in-out 1s; 
-  /* ease-in-out: tăng độ mượt cho animation 
+  transition: ease-in-out 1s;
+  /* ease-in-out: tăng độ mượt cho animation
       1s: thời gian diễn ra animation
   */
   animation-duration: 1s;     /* thời gian diễn ra animation đó*/
 }
 .trip img:hover{
   opacity: 0.8;
-  
+
 }
 .rounded-30 {
   border-radius: 20px;
@@ -1144,7 +1144,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
     border-radius: 50%; }
 
 .cta-section {
-  background: #6998AB; }
+  background: #ffb2c3; }
 
 .custom-block {
   margin-bottom: 30px; }
@@ -1463,7 +1463,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
         width: 30px;
         height: 30px;
         border-radius: 50%;
-        background: #6998AB;
+        background: #ffb2c3;
         display: inline-block;
         position: relative;
         color: #ffffff;
@@ -1478,7 +1478,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
           -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%); }
         .site-footer .widget .social li a:hover {
-          background-color: #6998AB;
+          background-color: #ffb2c3;
           color: #ffffff; }
     .site-footer .widget .links li {
       display: block;
@@ -1496,7 +1496,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
       position: absolute;
       content: "";
       font-family: 'icomoon';
-      color: #6998AB; }
+      color: #ffb2c3; }
     .site-footer ul.quick-info li.email:before {
       content: "\f0e0"; }
     .site-footer ul.quick-info li.phone:before {

@@ -195,7 +195,7 @@
                 <div class="pull-left info">
                     <p> {{ $objUser->ten_nhan_vien }} </p>
                     <p class="text-info">{{ $objUser->chuc_vu }}</p>
-                </div>                
+                </div>
             </div>
             <!-- sidebar menu: : style can be found in sidebar.less -->
             <ul class="sidebar-menu" data-widget="tree">

@@ -22,10 +22,9 @@ class ControllerPhong extends Controller
         $objTest = new Phong();
         $this->v['extParams'] = $request->all();
         $this->v['list'] = $objTest->loadListWithPager($this->v['extParams']);
-        return view('phong.index', $this->v);           
+        return view('phong.index', $this->v);
     }
     public function addPhong(PhongRequest $request){
-        dd(123);
         $this->v['_title']= 'Thêm phòng';
         $method_route = 'route_BackEnd_Phong_Add';
         if($request->isMethod('post')){
@@ -44,6 +43,7 @@ class ControllerPhong extends Controller
             if($res == null){
                 redirect()->route($method_route);
             }elseif($res>0){
+                redirect()->route('route_BackEnd_Phong_Index');
                 Session::flash('success','Thêm mới thành công');
             }else{
                 Session::flash('error','Lỗi thêm mới');

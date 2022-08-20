@@ -48,7 +48,7 @@
 	<nav class="site-nav">
 		<div class="container">
 			<div class="site-navigation">
-				<a href="#" class="logo m-0"><img style="width: 13%;height: 13%" src="images/logo.jpg" alt=""></a>
+				<a href="#" class="logo m-0"><img style="width: 13%;height: 13%" src="images/logo.png" alt=""></a>
 
 				<ul class="js-clone-nav d-none d-lg-inline-block text-left site-menu float-right">
 					<li class="active"><a href="#">Trang chủ</a></li>
@@ -81,7 +81,7 @@
 											<select name="" id="" class="form-control custom-select">
 												<option value="">Modern</option>
 												<option value="">Nordic</option>
-												<option value="">Color Block</option>												
+												<option value="">Color Block</option>
 												<option value="">Minimalism</option>
 												<option value="">Mid-Century Modern</option>
 												<option value="">Luxury</option>
@@ -95,9 +95,9 @@
 												<option value="">Hollywood</option>
 												<option value="">Funky</option>
 												<option value="">Metallic</option>
-												<option value="">Brutalism</option>												
+												<option value="">Brutalism</option>
 												<option value="">Baroque</option>
-												<option value="">Neoclassical</option>												
+												<option value="">Neoclassical</option>
 												<option value="">Classic</option>
 											</select>
 										</div>
@@ -108,7 +108,7 @@
 											<input type="text" class="form-control" placeholder="Số">
 										</div>
 
-									</div>    
+									</div>
 									<div class="row align-items-center">
 										<div class="col-sm-12 col-md-6 mb-3 mb-lg-0 col-lg-4">
 											<input type="submit" class="btn btn-primary btn-block" value="Tìm kiếm">
@@ -211,7 +211,7 @@
 							<span class="location" style="color: white">500k</span>
 						</div>
 						<img src="img/20.jpg" alt="Image" class="">
-					</a> 
+					</a>
 				</div>
 
 				<div class="item">
@@ -221,7 +221,7 @@
 							<span class="location" style="color: white">490k</span>
 						</div>
 						<img src="img/19.jpg" alt="Image" class="img-fluid">
-					</a> 
+					</a>
 				</div>
 
 				<div class="item">
@@ -231,7 +231,7 @@
 							<span class="location" style="color: white">480k</span>
 						</div>
 						<img src="img/18.jpg" alt="Image" class="img-fluid">
-					</a> 
+					</a>
 				</div>
 
 				<div class="item">
@@ -241,7 +241,7 @@
 							<span class="location" style="color: white">500k</span>
 						</div>
 						<img src="img/20.jpg" alt="Image" class="img-fluid">
-					</a> 
+					</a>
 				</div>
 
 				<div class="item">
@@ -251,7 +251,7 @@
 							<span class="location" style="color: white">490k</span>
 						</div>
 						<img src="img/19.jpg" alt="Image" class="box">
-					</a> 
+					</a>
 				</div>
 
 				<div class="item">
@@ -261,7 +261,7 @@
 							<span class="location" style="color: white">480k</span>
 						</div>
 						<img src="img/18.jpg" alt="Image" class="img-fluid">
-					</a> 
+					</a>
 				</div>
 
 			</div>
@@ -338,11 +338,11 @@
 									<h3><a style="color: rgb(251, 71, 71)" href="#">{{$item->ten_phong}}<span style="color: rgb(28, 28, 90)"> - {{$item->gia_phong}}k</span></a></h3>
 									<p>{{$item->mo_ta}}</p>
 								</div>
-								
+
 							</div>
 						</div>
 					</div>
-								
+
 				@endforeach
 				</div>
 			</div>
@@ -422,7 +422,7 @@
 						<p>Copyright &copy;<script>document.write(new Date().getFullYear());</script>. All Rights Reserved. &mdash; Designed with love by <a href="https://untree.co" class="link-highlight">Untree.co</a> <!-- License information: https://untree.co/license/ -->
 						</p>
 					</div>
-					
+
 				</div>
 			</div>
 		</div>

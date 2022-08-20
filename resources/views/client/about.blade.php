@@ -47,7 +47,7 @@
 	<nav class="site-nav">
 		<div class="container">
 			<div class="site-navigation">
-				<a href="#" class="logo m-0"><img style="width: 13%;height: 13%" src="images/logo.jpg" alt=""></a>
+				<a href="#" class="logo m-0"><img style="width: 13%;height: 13%" src="images/logo.png" alt=""></a>
 
 				<ul class="js-clone-nav d-none d-lg-inline-block text-left site-menu float-right">
 					<li class="active"><a href="{{ route('route_FrontEnd_Client_Index') }}">Trang chủ</a></li>
@@ -78,21 +78,21 @@
     </div>
   </div>
 
-  
-  
+
+
   <div class="untree_co-section">
     <div class="container">
       <div class="row">
         <div class="col-lg-6">
           <div class="owl-single dots-absolute owl-carousel">
-            <img src="images/7.jpg" alt="" class="img-fluid rounded-10">                      
-            <img src="images/8.jpg" alt="" class="img-fluid rounded-10">                      
-            <img src="images/9.jpg" alt="" class="img-fluid rounded-10">                      
-            <img src="images/10.jpg" alt="" class="img-fluid rounded-10">                      
-            <img src="images/11.jpg" alt="" class="img-fluid rounded-10">                      
-            <img src="images/12.jpg" alt="" class="img-fluid rounded-10">                      
-            <img src="images/13.jpg" alt="" class="img-fluid rounded-10">                      
-            <img src="images/14.jpg" alt="" class="img-fluid rounded-10">                      
+            <img src="images/7.jpg" alt="" class="img-fluid rounded-10">
+            <img src="images/8.jpg" alt="" class="img-fluid rounded-10">
+            <img src="images/9.jpg" alt="" class="img-fluid rounded-10">
+            <img src="images/10.jpg" alt="" class="img-fluid rounded-10">
+            <img src="images/11.jpg" alt="" class="img-fluid rounded-10">
+            <img src="images/12.jpg" alt="" class="img-fluid rounded-10">
+            <img src="images/13.jpg" alt="" class="img-fluid rounded-10">
+            <img src="images/14.jpg" alt="" class="img-fluid rounded-10">
           </div>
         </div>
         <div class="col-lg-6 pl-lg-6 ml-auto">
@@ -100,7 +100,7 @@
           <p>Khách sạn được xây dựng và phát triển trong 15 năm với phong cách Châu Âu.</p>
           <ul class="list-unstyled two-col clearfix">
             @foreach ($listPhong as $item)
-              <li>{{$item->ten_phong}}</li>              
+              <li>{{$item->ten_phong}}</li>
             @endforeach
           </ul>
         </div>
@@ -126,7 +126,7 @@
                 <p>{{$item->chuc_vu}}</p>
               </div>
             </div>
-          </div>            
+          </div>
         @endforeach
 
       </div>
@@ -135,7 +135,7 @@
   </div>
 
 
-  
+
 
 	<div class="untree_co-section testimonial-section mtnew">
 		<div class="container">
@@ -182,7 +182,7 @@
 	</div>
 
 
-  
+
   <div class="py-5 cta-section">
     <div class="container">
       <div class="row text-center">
@@ -201,7 +201,7 @@
 				<div class="row">
 					<div class="col-md-6 col-lg-4">
 						<div class="widget">
-							<h3 class="heading">Marvella Hotels</h3>
+							<h3 class="heading">My Hotels</h3>
 							<p>Khách sạn 5 sao mang phong cách Châu Âu đẳng cấp quốc tế. Luôn mang đến cho khách hàng những trải nghiệm xa hoa, đẳng cấp nhất.</p>
 						</div>
 						<div class="widget">
@@ -256,7 +256,7 @@
 						<p>Copyright &copy;<script>document.write(new Date().getFullYear());</script>. All Rights Reserved. &mdash; Designed with love by <a href="https://untree.co" class="link-highlight">Untree.co</a> <!-- License information: https://untree.co/license/ -->
 						</p>
 					</div>
-					
+
 				</div>
 			</div>
 		</div>
@@ -282,7 +282,7 @@
 	<script src="{{ asset('js/daterangepicker.js') }}"></script>
 
 	<script src="{{ asset('js/typed.js') }}"></script>
-  
+
 	<script src="{{ asset('js/custom.js') }}"></script>
 
 </body>

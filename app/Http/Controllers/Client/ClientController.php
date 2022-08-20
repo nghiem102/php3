@@ -20,26 +20,26 @@ class ClientController extends Controller
         $this->v =[];
     }
     public function aboutClient(Request $request){
-        $this->v['tieude']="GIỚI THIỆU VỀ MARVELLA HOTELS";
+        $this->v['tieude']="My Hotels";
         $objPhong = new Phong();
         $this->v['extParams'] = $request->all();
         $this->v['listPhong'] = $objPhong->loadList($this->v['extParams']);
         $objUser = new Test1();
         $this->v['extParams'] = $request->all();
         $this->v['listUsers'] = $objUser->loadList($this->v['extParams']);
-        return view('client.about', $this->v);    
+        return view('client.about', $this->v);
     }
     public function addKhachhang(Request $request){
-        $this->v['tieude']="GIỚI THIỆU VỀ MARVELLA HOTELS";
+        $this->v['tieude']="My Hotels";
         $objUser = new Test1();
         $this->v['extParams'] = $request->all();
-        $this->v['listUsers'] = $objUser->loadList($this->v['extParams']);        
+        $this->v['listUsers'] = $objUser->loadList($this->v['extParams']);
         $objPhong = new Phong();
         $this->v['extParams'] = $request->all();
-        $this->v['listPhong'] = $objPhong->loadList($this->v['extParams']);        
+        $this->v['listPhong'] = $objPhong->loadList($this->v['extParams']);
         $objDichvu = new Dichvu();
         $this->v['extParams'] = $request->all();
-        $this->v['listDichvu'] = $objDichvu->loadList($this->v['extParams']);        
+        $this->v['listDichvu'] = $objDichvu->loadList($this->v['extParams']);
         $method_route = 'route_FrontEnd_Client_Elements';
         if($request->isMethod('post')){
             $params=[];
@@ -67,15 +67,15 @@ class ClientController extends Controller
     }
     public function indexClient(Request $request)
     {
-        $this->v['tieude']="MARVELLA HOTELS";
+        $this->v['tieude']="My Hotels";
         $objPhong = new Phong();
         $this->v['extParams'] = $request->all();
         $this->v['list'] = $objPhong->loadList($this->v['extParams']);
-        return view('client.index', $this->v);           
+        return view('client.index', $this->v);
     }
     public function contactClient(Request $request)
     {
-        $this->v['tieude']="MARVELLA HOTELS";
-        return view('client.contact', $this->v);           
+        $this->v['tieude']="My Hotels";
+        return view('client.contact', $this->v);
     }
 }

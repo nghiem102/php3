@@ -46,7 +46,7 @@
 	<nav class="site-nav">
 		<div class="container">
 			<div class="site-navigation">
-				<a href="#" class="logo m-0"><img style="width: 13%;height: 13%" src="images/logo.jpg" alt=""></a>
+				<a href="#" class="logo m-0"><img style="width: 13%;height: 13%" src="images/logo.png" alt=""></a>
 
 				<ul class="js-clone-nav d-none d-lg-inline-block text-left site-menu float-right">
 					<li class="active"><a href="{{ route('route_FrontEnd_Client_Index') }}">Trang chủ</a></li>
@@ -77,8 +77,8 @@
     </div>
   </div>
 
-  
-  
+
+
   <div class="untree_co-section">
     <div class="container my-5">
       <div class="mb-5">
@@ -183,7 +183,7 @@
                 <label class="text-black">Địa chỉ</label>
                 <input type="text" name="dia_chi" class="form-control" aria-describedby="mess" value="@isset($request['dia_chi']){{ $request['dia_chi'] }}@endisset">
                 <small id="mess" class="form-text text-muted">Chúng tôi sẽ không chia sẽ nội dung này cho bất kỳ ai khác.</small>
-              </div>              
+              </div>
               <div class="row">
                 <div class="col-md-6">
                   <div class="form-group">
@@ -211,13 +211,13 @@
                     <input type="date" name="ngay_tra" class="form-control" value="@isset($request['ngay_tra']){{ $request['ngay_tra'] }}@endisset">
                   </div>
                 </div>
-              </div>              
+              </div>
               <div class="row">
                 <div class="col-md-6">
                   <div class="form-group">
                     <label class="text-black" for="select">Chọn phòng</label>
                     <select name="ma_phong" id="select" class="custom-select" required="required">
-                      @foreach ($listPhong as $phong)  
+                      @foreach ($listPhong as $phong)
                       <option value="{{$phong->id}}">{{$phong->ten_phong}}</option>
                       @endforeach
                     </select>
@@ -227,7 +227,7 @@
                   <div class="form-group">
                     <label class="text-black" for="select">Chọn dịch vụ</label>
                     <select name="ma_dich_vu" id="select" class="custom-select" required="required">
-                      @foreach ($listDichvu as $dichvu)  
+                      @foreach ($listDichvu as $dichvu)
                       <option value="{{$dichvu->id}}">{{$dichvu->ten_dich_vu}}</option>
                       @endforeach
                     </select>
@@ -272,7 +272,7 @@
               <h2 class="section-title mb-3 text-center">Thành viên ban quản trị</h2>
             </div>
           </div>
-    
+
           <div class="owl-carousel owl-4-slider">
             @foreach ($listUsers as $item)
               <div class="item">
@@ -283,11 +283,11 @@
                     <p>{{$item->chuc_vu}}</p>
                   </div>
                 </div>
-              </div>            
+              </div>
             @endforeach
-    
+
           </div>
-    
+
         </div>
       </div>
     </div>
@@ -311,7 +311,7 @@
 				<div class="row">
 					<div class="col-md-6 col-lg-4">
 						<div class="widget">
-							<h3 class="heading">Marvella Hotels</h3>
+							<h3 class="heading">My Hotels</h3>
 							<p>Khách sạn 5 sao mang phong cách Châu Âu đẳng cấp quốc tế. Luôn mang đến cho khách hàng những trải nghiệm xa hoa, đẳng cấp nhất.</p>
 						</div>
 						<div class="widget">
@@ -366,7 +366,7 @@
 						<p>Copyright &copy;<script>document.write(new Date().getFullYear());</script>. All Rights Reserved. &mdash; Designed with love by <a href="https://untree.co" class="link-highlight">Untree.co</a> <!-- License information: https://untree.co/license/ -->
 						</p>
 					</div>
-					
+
 				</div>
 			</div>
 		</div>
@@ -392,7 +392,7 @@
 	<script src="{{ asset('js/daterangepicker.js') }}"></script>
 
 	<script src="{{ asset('js/typed.js') }}"></script>
-  
+
 	<script src="{{ asset('js/custom.js') }}"></script>
   @section('script')
     <script src="{{ asset('default/plugins/input-mask/jquery.inputmask.js') }}"></script>
