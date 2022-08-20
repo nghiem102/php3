@@ -29,7 +29,7 @@
     <!-- Google Font -->
     <link rel="stylesheet"
           href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
-    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    {{-- <link rel="icon" type="image/x-icon" href="/favicon.ico"> --}}
     <!--[if IE]>
     <style>
         .login-box-body{

@@ -42,7 +42,7 @@
     <!-- Google Font -->
     <link rel="stylesheet"
           href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
-    <link rel="icon" type="image/png" sizes="16x16" href="/public/img/favicon.png">
+    {{-- <link rel="icon" type="image/png" sizes="16x16" href="/public/img/favicon.png"> --}}
     <link rel="stylesheet" href="{{asset('default/bower_components/select2/dist/css/select2.min.css')}}">
     @yield('css')
     <style>
